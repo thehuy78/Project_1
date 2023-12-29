@@ -1,0 +1,268 @@
+{
+    "news": [
+        {
+            "name": "New discoveries about planets in our solar system, such as Mercury, Venus, Mars, Jupiter, and Saturn",
+            "title": "New discoveries about planets in our solar system, such as Mercury, Venus, Mars, Jupiter, and Saturn.",
+            "fact": "The planets in our solar system have long been a subject of fascination for astronomers and space enthusiasts alike.....",
+            "img": "img/saturn/saturn_background.jpg",
+            "href": "eproject_news.html"
+        },
+        {
+            "name": "Advancements in Deep Space Exploration Using Infrared and Telescopic Technology",
+            "title": "Advancements in Deep Space Exploration Using Infrared and Telescopic Technology.",
+            "fact": "Deep space exploration has always been a fascinating subject for astronomers and space enthusiasts.....",
+            "img": "img/news/Advancements in Deep Space/1.jpg",
+            "href": "eproject_news.html"
+        },
+        {
+            "name": "Understanding the Origins and Evolution of the Universe",
+            "title": "Understanding the Origins and Evolution of the Universe.",
+            "fact": "The study of the origins and evolution of the universe is one of the most fundamental and exciting areas of modern astronomy.....",
+            "img": "img/news/Understanding the Origins and Evolution of the Universe/1.jpeg",
+            "href": "eproject_news.html"
+        },
+        {
+            "name": "Understanding Dark Matter and Supermassive Objects",
+            "title": "Understanding Dark Matter and Supermassive Objects.",
+            "fact": "Dark matter and supermassive objects are some of the most mysterious and elusive components of the universe.....",
+            "img": "img/news/dark matter/1.jpg",
+            "href": "eproject_news.html"
+        },
+        {
+            "name": "The Search for Extraterrestrial Life and Habitable Planets",
+            "title": "The Search for Extraterrestrial Life and Habitable Planets.",
+            "fact": "The search for extraterrestrial life and habitable planets is one of the most captivating and exciting areas of modern astronomy.....",
+            "img": "img/news/The Search for Extraterrestrial Life/1.jpg",
+            "href": "eproject_news.html"
+        },
+        {
+            "name": "Observations and Studies of the Sun and Its Effects on Earth",
+            "title": "Observations and Studies of the Sun and Its Effects on Earth.",
+            "fact": "The Sun is the closest star to Earth and its energy drives the Earth's climate and weather patterns.....",
+            "img": "img/news/Observations and Studies of the Sun and Its Effects on Earth/1.jpg",
+            "href": "eproject_news.html"
+        },
+        {
+            "name": "Investigations into the Nature of Dark Energy and its Role in the Accelerating Expansion of the Universe",
+            "title": "Investigations into the Nature of Dark Energy and its Role in the Accelerating Expansion of the Universe.",
+            "fact": "Dark energy is a mysterious form of energy that is thought to be responsible for.....",
+            "img": "img/news/Investigations into the Nature of Dark Energy and its Role in the Accelerating Expansion of the Universe/1.jpg",
+            "href": "eproject_news.html"
+        },
+        {
+            "name": "Efforts to Explore and Search for Other Planets and Celestial Bodies",
+            "title": "Efforts to Explore and Search for Other Planets and Celestial Bodies.",
+            "fact": "Humans have been fascinated with the stars and skies for thousands of years.....",
+            "img": "img/news/Efforts to Explore and Search for Other Planets and Celestial Bodies/1.jpg",
+            "href": "eproject_news.html"
+        },
+        {
+            "name": "Earth",
+            "title": " Our home planet is the third planet from the Sun, and the only place we know of so far that's inhabited by living things.",
+            "fact": "Our home planet is the third planet from the Sun, and the only place we know.....",
+            "img": "img/earth/earth1.jpg",
+            "href": "eproject_infor_planet.html"
+        },
+        {
+            "name": "Mars",
+            "title": "Mars is the fourth planet from the Sun and is one of the potential objects for life outside of Earth.",
+            "fact": "Mars is no place for the faint-hearted. It's dry, rocky, and bitter cold. The fourth planet from the Sun.....",
+            "img": "img/mars/mars1.jpg",
+            "href": "eproject_infor_planet.html"
+        },
+        {
+            "name": "Venus",
+            "title": "Venus is the second planet in the Solar System, with a mass and size similar to that of Earth.",
+            "fact": "It's a cloud-swaddled planet named for a love goddess, often called Earth's twin.....",
+            "img": "img/venus/venus1.png",
+            "href": "eproject_infor_planet.html"
+        },
+        {
+            "name": "Mercury",
+            "title": "Mercury is a very special planet in the solar system.",
+            "fact": "The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon.....",
+            "img": "img/mercury/mercury4.jpg",
+            "href": "eproject_infor_planet.html"
+        },
+        {
+            "name": "Jupiter",
+            "title": "Jupiter is the largest planet in the Solar System and a gas giant, with a system of rings and many moons.",
+            "fact": "Jupiter is the fifth planet from our Sun and is, by far, the largest planet in the solar system.....",
+            "img": "img/jupiter/jupiter1.jpg",
+            "href": "eproject_infor_planet.html"
+        },
+        {
+            "name": "Saturn",
+            "title": "Saturn is the sixth planet from the Sun and the second-largest planet in our solar system.",
+            "fact": "Saturn is the sixth planet from the Sun and the second-largest planet in our solar system.....",
+            "img": "img/saturn/saturn1.png",
+            "href": "eproject_infor_planet.html"
+        },
+        {
+            "name": "Uranus",
+            "title": "The seventh planet from the Sun with the third largest diameter in our solar system, Uranus is very cold and windy.",
+            "fact": "The seventh planet from the Sun with the third largest diameter in our solar system.....",
+            "img": "img/uranus/uranus1.jpg",
+            "href": "eproject_infor_planet.html"
+        },
+        {
+            "name": "Neptune",
+            "title": "Neptune is so far from the Sun that high noon on the big blue planet would seem like dim twilight to us.",
+            "fact": "Dark, cold, and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system......",
+            "img": "img/neptune/neptune1.jpg",
+            "href": "eproject_infor_planet.html"
+        },
+        {
+            "name": "BigBang",
+            "title": "The Big Bang Theory: Achievements, Challenges, and Current Efforts to Unravel the Mysteries of the Universe.",
+            "fact": "The Big Bang theory is a scientific model that describes the origin and evolution of the universe.....",
+            "img": "img/theory/big_bang/1.jpg",
+            "href": "eproject_theory.html"
+        },
+        {
+            "name": "EOE",
+            "title": "The Evolution of Life on Earth: From Formation to Human Impact.",
+            "fact": "Charles Darwin's theory of evolution, proposed in his book \"On the Origin of Species\" in 1859.....",
+            "img": "img/theory/EOE/1.jpg",
+            "href": "eproject_theory.html"
+        }
+    ],
+    "constellation": [
+        {
+            "id": "Gemini",
+            "name": "Constellation: The Twin Stars in the Sky",
+            "title": "Constellation: The Twin Stars in the Sky.",
+            "fact": "The Gemini constellation is one of the most recognized and prominent constellations in the night sky....",
+            "img": "img/gemini_constellation/card.png",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Leo",
+            "name": "Leo Constellation: A Majestic Sight in the Summer Sky",
+            "title": "Leo Constellation: A Majestic Sight in the Summer Sky.",
+            "fact": "The Leo constellation is one of the most recognizable and prominent patterns in the summer night sky....",
+            "img": "img/Leo constellation/card.png",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Scorpio",
+            "name": "Scorpius Constellation: The Scorpion in the Summer Sky",
+            "title": "Scorpius Constellation: The Scorpion in the Summer Sky.",
+            "fact": "The Scorpius constellation is a striking pattern in the summer night sky.",
+            "img": "img/scorpius constellation/card.jpg",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Aquarius",
+            "name": "Aquarius Constellation: The Water Bearer in the Winter Sky",
+            "title": "Aquarius Constellation: The Water Bearer in the Winter Sky.",
+            "fact": "The Aquarius constellation is a distinctive pattern in the winter night sky....",
+            "img": "img/aquarius constellation/card.jpg",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Taurus",
+            "name": "Taurus Constellation: The Bull in the Night Sky",
+            "title": "Taurus Constellation: The Bull in the Night Sky.",
+            "fact": "The Taurus constellation is a prominent feature of the winter night sky in the Northern Hemisphere....",
+            "img": "img/taurus constellation/card.png",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Aries",
+            "name": "Aries Constellation: The Ram in the Night Sky",
+            "title": "Aries Constellation: The Ram in the Night Sky.",
+            "fact": "The Aries constellation is a small but prominent feature of the night sky in the Northern Hemisphere....",
+            "img": "img/aries constellation/card.png",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Cancer",
+            "name": "Cancer Constellation: The Crab in the Night Sky",
+            "title": "Cancer Constellation: The Crab in the Night Sky.",
+            "fact": "The Cancer constellation is a small and often overlooked feature of the night sky....",
+            "img": "img/Cancer constellation/card.png",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Capricorn",
+            "name": "Capricorn Constellation: The Sea Goat in the Night Sky",
+            "title": "Capricorn Constellation: The Sea Goat in the Night Sky.",
+            "fact": "The Capricorn constellation is a small and faint feature of the night sky in the Southern Hemisphere....",
+            "img": "img/Capricorn constellation/card.jpg",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Libra",
+            "name": "Libra Constellation: The Scales of Balance in the Night Sky",
+            "title": "Libra Constellation: The Scales of Balance in the Night Sky.",
+            "fact": "The Libra constellation is a small and faint feature of the night sky in the Southern Hemisphere....",
+            "img": "img/Libra constellation/card.png",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Pisces",
+            "name": "Pisces Constellation: The Fish in the Night Sky",
+            "title": "Pisces Constellation: The Fish in the Night Sky.",
+            "fact": "The Pisces constellation is a prominent feature of the night sky in the Northern Hemisphere....",
+            "img": "img/Pisces constellation/card.jpg",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Sagittarius",
+            "name": "Sagittarius Constellation: The Archer in the Night Sky",
+            "title": "Sagittarius Constellation: The Archer in the Night Sky.",
+            "fact": "The Sagittarius constellation is a prominent and easily recognizable feature of....",
+            "img": "img/Sagittarius constellation/card.jpg",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Virgo",
+            "name": "Virgo Constellation: The Maiden in the Night Sky",
+            "title": "Virgo Constellation: The Maiden in the Night Sky.",
+            "fact": "The Virgo constellation is a prominent and easily recognizable feature of the night....",
+            "img": "img/Virgo constellation/card.png",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Orion",
+            "name": "Orion Constellation: A Winter Wonder in the Night Sky",
+            "title": "Orion Constellation: A Winter Wonder in the Night Sky.",
+            "fact": "The constellation of Orion is one of the most recognizable and beloved patterns in the winter night sky....",
+            "img": "img/orion constellation/card.jpg",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Cygnus",
+            "name": "Cygnus Constellation: The Swan in the Summer Sky",
+            "title": "Cygnus Constellation: The Swan in the Summer Sky.",
+            "fact": "The Cygnus constellation is a beautiful and prominent pattern in the summer night sky....",
+            "img": "img/cygnus constellation/card.jpg",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Lyra",
+            "name": "Lyra Constellation: The Harp in the Summer Sky",
+            "title": "Lyra Constellation: The Harp in the Summer Sky.",
+            "fact": "The Lyra constellation is a beautiful and prominent pattern in the summer night sky....",
+            "img": "img/lyra constellation/card.jpg",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Canis Major",
+            "name": "Canis Major Constellation: The Great Dog in the Winter Sky",
+            "title": "Canis Major Constellation: The Great Dog in the Winter Sky.",
+            "fact": "The Canis Major constellation is a prominent pattern in the winter night sky....",
+            "img": "img/canis major constellation/card.jpg",
+            "href": "eproject_constellation.html"
+        },
+        {
+            "id": "Cassiopeia",
+            "name": "Cassiopeia Constellation: The Queen in the Northern Sky",
+            "title": "Cassiopeia Constellation: The Queen in the Northern Sky.",
+            "fact": "The Cassiopeia constellation is a prominent feature of the northern hemisphere night sky....",
+            "img": "img/cassiopeia constellation/card.png",
+            "href": "eproject_constellation.html"
+        }
+    ]
+}

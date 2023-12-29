@@ -1,0 +1,716 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    height: 10%;
+    margin: 0;
+}
+
+.background_image {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
+    /* 100% chiều cao của viewport */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-left {
+    width: 20%;
+    font-size: 2.5vw;
+    margin-left: 3vw;
+}
+
+.menu-center {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin: 1.5vw;
+    height: fit-content;
+}
+
+.menu-center a {
+    font-size: 1.5vw;
+}
+
+.menu-right {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-center:hover a {
+    color: rgba(128, 128, 128, 0.709);
+    transition: 0.3s;
+}
+
+.menu-center:hover a:hover {
+    color: white;
+    text-decoration-line: underline;
+    animation: shake 1s;
+
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-0.1vw);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(0.1vw);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.menu-web {
+    padding-top: 3vh;
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    transition: backround-color 0, 3s;
+    z-index: 1;
+}
+
+.menu-web.scrolled {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.theory_main_content {
+    width: 80%;
+    height: auto;
+    margin: 10vh 10% 0;
+    color: white;
+    text-align: justify;
+}
+
+.theory_main_content p {
+    font-size: 1.3rem;
+}
+
+.theory_main_content img {
+    width: 60%;
+    height: 50vh;
+    margin: 0 20%;
+}
+
+.theory_main_content .video {
+    margin: 0 15%;
+}
+
+
+.theory_main_content figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.mini_menu {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+
+}
+
+.mini_menu a {
+    margin-bottom: 1vh;
+}
+
+.zodiac_main_content {
+    width: 80%;
+    height: auto;
+    margin: 10vh 10% 25vh;
+    color: white;
+    text-align: justify;
+
+}
+
+.zodiac_main_content p {
+    font-size: 1.3rem;
+}
+
+.zodiac_main_content img {
+    width: 60%;
+    height: 50vh;
+    margin: 0 20%;
+}
+
+.zodiac_main_content figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.news_main_content {
+    width: 80%;
+    height: auto;
+    margin: 10vh 10% 0;
+    color: white;
+    text-align: justify;
+}
+
+.news_main_content div {
+    font-size: 1.3rem;
+}
+
+.news_main_content img {
+    width: 60%;
+    height: 50vh;
+    margin: 0 20%;
+}
+
+.news_main_content figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+
+.news_list {
+    margin-top: 7vh;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20vh;
+
+
+}
+
+.news_list_content {
+    width: 95%;
+    display: inline-block;
+    align-items: center;
+    height: auto;
+    margin-left: 5%;
+    transition: 2s;
+}
+
+.news_list_content_element {
+    border: solid 0.1vw white;
+    display: inline-block;
+    align-items: center;
+    width: 29.333%;
+    height: 58vh;
+    margin-right: 3%;
+    margin-bottom: 5vh;
+    /* transform: scale(0); */
+    transition: 0.5s;
+}
+
+
+
+.news_list_content .news_list_content_element:hover {
+    box-shadow: 3vh 3vh 3vh rgba(219, 219, 222, 0.858);
+
+
+}
+
+.news_list_content img {
+    width: 100%;
+    height: 62%;
+}
+
+.news_list_content h4 {
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+    height: 10%;
+}
+
+.news_list_content p {
+    text-align: justify;
+    font-size: calc(0.4vw + 1vh);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2vh;
+
+}
+
+.search_news {
+    width: 30%;
+    height: 5vh;
+    margin-bottom: 5vh;
+
+}
+
+.page_number {
+    color: white;
+    width: 50%;
+    margin: 5vh 43% 0;
+    font-size: 1.5rem;
+
+}
+
+#number {
+    margin-right: 2%;
+    border: 0.2vh solid white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 5%;
+    height: 4vh;
+    /* background-color: rgba(128, 128, 128, 0.56); */
+
+}
+
+
+/* CSS for button page news */
+.button_page {
+    width: 30%;
+    margin: 5vh 40%;
+}
+
+.button_page a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 5vh;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    border: 0.2vh solid white;
+
+}
+
+.button_page a:hover {
+    background-color: white;
+    color: black;
+}
+
+.button_page a:nth-child(2) {
+    margin-left: 10%;
+
+}
+
+/* end  */
+/* CSS for .recommend_content */
+.recommend {
+    margin-top: 10vh;
+    border-top: solid white 0.15vw;
+    width: 100%;
+    height: 60vh;
+}
+
+.recommend_content {
+    margin-top: 5vh;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.main_end {
+    margin-top: 4vh;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+
+
+.recommend_content_element {
+    display: inline-block;
+    width: 30%;
+    height: 70%;
+    border: solid 2px white;
+    transition: 0.3s;
+
+}
+
+.recommend_content_element img {
+    width: 100%;
+    height: 83%;
+}
+
+.recommend_content_element {
+    text-align: center;
+}
+
+.recommend_content_element:hover {
+    box-shadow: 1vh 1vh 1vh rgba(219, 219, 222, 0.858);
+    transform: scale(1.1);
+
+}
+
+/* end */
+
+/* css for constellation */
+.constellation_main_content {
+
+    width: 80%;
+    height: auto;
+    margin: 10vh 10% 0;
+    color: white;
+    text-align: justify;
+}
+
+.constellation_main_content p {
+    font-size: 1.3rem;
+}
+
+.constellation_main_content h2 {
+    font-size: 2rem;
+    margin-left: 2%;
+}
+
+.constellation_main_content img {
+    width: 60%;
+    height: 50vh;
+    margin: 0 20%;
+}
+
+.constellation_main_content .video {
+    margin: 0 15%;
+}
+
+
+.constellation_main_content figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+/* css for list_constellation */
+
+.constellation_list {
+    margin-top: 7vh;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10vh;
+}
+
+.cosntellation_list_content {
+    width: 95%;
+    display: inline-block;
+    align-items: center;
+    height: auto;
+    margin-left: 5%;
+    transition: 2s;
+}
+
+.show_page_constellation {
+    margin-left: 3.5%;
+}
+
+.cosntellation_list_content_element {
+    border: solid 0.1vw white;
+    display: inline-block;
+    width: 18%;
+    height: 65vh;
+    margin-right: 6%;
+    margin-bottom: 5vh;
+    border-radius: 13px;
+    /* transform: scale(0); */
+    transition: 0.5s;
+}
+
+
+.cosntellation_list_content img {
+    border-radius: 13px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Opacity card */
+.cosntellation_list_content_element {
+    position: relative;
+}
+
+.flip-card-front {
+    transition: 0.4s;
+}
+
+.cosntellation_list_content_element:hover .flip-card-front {
+    opacity: 0;
+}
+
+/* .flip-card-front:hover .flip-card-back {
+    z-index: 0;
+} */
+
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* end */
+
+.fortune_telling {
+    padding: 2vh;
+    border: solid 0.2vh white;
+    width: 50%;
+    height: 40vh;
+    margin: 0 25%;
+    color: white;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 25vh;
+    position: relative;
+
+}
+
+.fortune_telling_button {
+    margin-left: 85%;
+    width: 15%;
+    height: 5vh;
+    position: absolute;
+    top: 68%;
+    left: -18.5%;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border: 0.2vh solid white;
+    cursor: pointer;
+}
+
+.fortune_telling_button:hover {
+    background-color: white;
+    color: black;
+}
+
+.fortune_telling_fomr input {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.fortune_telling_fomr {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.fortune_telling_fomr_element {
+    width: 25%;
+}
+
+.scanner span {
+    display: inline-block;
+    width: 20%;
+    margin-top: 5vh;
+    margin-left: 16.5%;
+    color: transparent;
+    font-size: 2rem;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+
+.scanner span::before {
+    content: "Loading...";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-right: 4px solid blanchedalmond;
+    overflow: hidden;
+    color: blanchedalmond;
+    animation: load91371 4s linear infinite;
+}
+
+@keyframes load91371 {
+
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    10%,
+    20%,
+    30%,
+    40%,
+    50%,
+    60%,
+    70%,
+    80%,
+    90%,
+    100% {
+        border-right-color: transparent;
+    }
+
+    11%,
+    21%,
+    31%,
+    41%,
+    51%,
+    61%,
+    71%,
+    81%,
+    91% {
+        border-right-color: blanchedalmond;
+    }
+
+    60%,
+    80% {
+        width: 100%;
+    }
+}
+
+/* end */
+/* mini_game css */
+
+.gallery_item:hover .card-front-minigame {
+    opacity: 0;
+}
+
+
+
+.gallery_item:hover .card-back-minigame {
+    border: solid 0.2vh white;
+}
+
+.card-front-minigame {
+    border-radius: 13px;
+    transition: 1s;
+}
+
+.card-back-minigame {
+    border-radius: 13px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.background_minigame {
+    background-image: url('../img/minigame_background.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.gallery {
+    height: 90vh;
+    width: 100%;
+}
+
+.gallery_container {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    margin: auto;
+    max-width: 1000px;
+    position: relative;
+
+}
+
+.gallery_item {
+    height: 40%;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.05s ease-in-out;
+    width: 15%;
+    z-index: 0;
+    border-radius: 15px;
+    background-size: contain;
+}
+
+.gallery_item img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery_item_1 {
+    left: 15%;
+    opacity: 0.5;
+    transform: translateX(-50%);
+}
+
+.gallery_item_2,
+.gallery_item_4 {
+    height: 55%;
+    opacity: 0.8;
+    width: 20%;
+    z-index: 1;
+}
+
+.gallery_item_2 {
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.gallery_item_3 {
+    box-shadow: -2px 5px 33px 6px rgba(0, 0, 0, 0.35);
+    height: 75%;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    z-index: 2;
+}
+
+.gallery_item_4 {
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.gallery_item_5 {
+    left: 85%;
+    opacity: 0.5;
+    transform: translateX(-50%);
+
+}
+
+.gallery_item_6,
+.gallery_item_7,
+.gallery_item_8,
+.gallery_item_9,
+.gallery_item_10,
+.gallery_item_11,
+.gallery_item_12 {
+    opacity: 0;
+    left: 50%;
+}
+
+/* end */

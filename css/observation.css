@@ -1,0 +1,185 @@
+/* Start css observation info*/
+.body-observation {
+    background-color: white;
+    color: black;
+    height: fit-content;
+}
+
+.observation-main-content {
+    width: 60%;
+    margin-left: 20%;
+    height: auto;
+
+    padding-top: 2vw;
+}
+
+.observation-main-content div {
+    font-size: 1.3vw;
+    margin: 1.5vw 0;
+}
+
+.observation-main-content div:first-child {
+    padding: 0;
+    margin: 0;
+}
+
+.observation-main-content h1 {
+    font-size: 2vw;
+
+}
+
+.observation-main-content img {
+    width: 60%;
+    height: 50vh;
+    margin: 0 20%;
+}
+
+.observation-main-content .map {
+    width: 60%;
+    height: 50vh;
+    margin: 0 20%;
+}
+
+.observation-main-content .video {
+    width: 90%;
+    height: 65vh;
+    margin: 0 5%;
+}
+
+.observation-main-content .video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.observation-main-content .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.observation-main-content figcaption {
+    text-align: center;
+    font-size: 1vw;
+    font-style: italic;
+    padding-bottom: 0.5vw;
+}
+
+.comment-observation {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+/* end css observation info*/
+
+
+/* Start css observation*/
+.background-image-observation {
+    width: 100%;
+    height: calc(100vw * 9 / 16);
+    max-height: auto;
+
+    background-image: url('../img/observation/background/blog-cc-karen-masters-6947.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.observation-list {
+    display: flex;
+
+    width: 100%;
+    height: calc(80vw * 9 / 16);
+    max-height: 80vh;
+    position: relative;
+    top: 8vw;
+    justify-content: space-evenly;
+}
+
+.observation-card {
+    position: relative;
+    width: 25%;
+    height: calc(70vw * 9 / 16);
+    max-height: 70vh;
+    margin: 2vw;
+    border-radius: 1vw;
+    overflow: hidden;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    cursor: pointer;
+}
+
+.observation-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    color: blue;
+}
+
+.observation-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.observation-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    padding: 1vw 1vw;
+    background-color: #fff;
+    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.observation-title {
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.observation-text {
+    font-size: 1vw;
+    line-height: 1.5;
+    margin-bottom: 1vw;
+    width: 90%;
+
+
+}
+
+.observation-button {
+    display: inline-block;
+    padding: 0.5vw 1.5vw;
+    background-color: #ec1010;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1vw;
+    border-radius: 1.5vw;
+
+}
+
+.observation-card:hover {
+    transform: translateY(-10px);
+}
+
+.observation-card:hover .observation-image img {
+    transform: scale(1.2);
+}
+
+.observation-card:hover .observation-content {
+    transform: translateY(-180%);
+}
+
+.observation-image {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+/*End css observation*/

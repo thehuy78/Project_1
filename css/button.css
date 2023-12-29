@@ -1,0 +1,104 @@
+.fancy {
+    background-color: transparent;
+    border: 0.2vw solid #ffffff;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    /* float: right; */
+    font-weight: bold;
+    letter-spacing: 0.05vw;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 1.25vw 2vw;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 1.3vw;
+}
+
+.fancy::before {
+    content: " ";
+    width: 1.5625vw;
+    height: 0.2vw;
+    background: black;
+    top: 50%;
+    left: 1.5vw;
+    position: absolute;
+    transform: translateY(-50%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+}
+
+.fancy .text {
+    font-size: 1.125vw;
+    line-height: 1.33333vw;
+    padding-left: 2vw;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.fancy .top-key {
+    height: 0.2vw;
+    width: 1.5625vw;
+    top: -0.2vw;
+    left: 0.625vw;
+    position: absolute;
+    background: #000000;
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+
+.fancy .bottom-key-1 {
+    height: 0.2vw;
+    width: 1.5625vw;
+    right: 1.875vw;
+    bottom: -0.2vw;
+    position: absolute;
+    background: #000000;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy .bottom-key-2 {
+    height: 0.2vw;
+    width: 0.625vw;
+    right: 0.625vw;
+    bottom: -0.2vw;
+    position: absolute;
+    background: #000000;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy:hover {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 254, 254);
+}
+
+.fancy:hover::before {
+    width: 0.9375vw;
+    background: rgb(0, 0, 0);
+}
+
+.fancy:hover .text {
+    color: rgb(0, 0, 0);
+    padding-left: 1.5vw;
+}
+
+.fancy:hover .top-key {
+    left: -0.2vw;
+    width: 0;
+}
+
+.fancy:hover .bottom-key-1,
+.fancy:hover .bottom-key-2 {
+    right: 0;
+    width: 0;
+}

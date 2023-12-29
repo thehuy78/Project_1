@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plannet</title>
+    <link rel="stylesheet" href="css/style_planet.css">
+    <script src="https://kit.fontawesome.com/7707bc9338.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/comment.css">
+    <script src="login.js"></script>
+    <link rel="shortcut icon" href="img/logo/icon-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <a class="btt-button" href="#"><i id="btt" class="fa-solid fa-circle-up"></i></a>
+    <div class="contact" id="contact">
+        <i class="fa-sharp fa-solid fa-caret-left" onclick="toggleContactList()"></i><br>
+        <div class="listcontact" id="listcontact">
+            <a href="#facebook" class="contacticon"><i class="fb fa-icon fa fa-facebook-f"></i></a>
+            <a href="#twitter" class="contacticon"><i class="twt fa-icon fa fa-twitter"></i></a>
+            <a href="#google" class="contacticon"><i class="gg fa-icon fa fa-google"></i></a>
+
+        </div>
+    </div>
+    <header>
+        <div class="background_image">
+            <div class="menu-web" id="menuWeb">
+                <nav>
+                    <div class="menu-left">
+                        <a href="index.html" style="font-family: 'Times New Roman', Times, serif;">SPACE<span
+                                style="color: red; font-size: 150%;">K</span></a>
+                    </div>
+                    <div class="menu-center">
+                        <div class="list-menu-index" onclick="toggleMenu()"><i
+                                class="fa-solid fa-list icon-list-responsive"></i></div>
+                        <a href="eproject_newslist.html">NEWS</a>
+                        <a href="eproject_list_planet.html">PLANET</a>
+                        <a href="eproject_booktheory.html">THEORY</a>
+                        <a href="eproject_list_constellation.html">CONSTELLATION</a>
+                        <a href="eproject_comet.html">COMET</a>
+                        <a href="eproject_observation.html">OBSERVATIONS</a>
+                    </div>
+                    <div class="menu-right">
+                        <a href="eproject_aboutus.html">ABOUT US</a>
+                        <a href="eproject_signin.html" id="index-log"><span id="user-index-log"></span><i
+                                class="fa-solid fa-right-from-bracket"></i></a>
+                    </div>
+                </nav>
+
+                <div class="background">
+                    <img src="img/solar_system.jpg" alt="">
+                    <div class="secret_text"></div>
+                    <a href="" class="link">
+                        <div class="link_sun">
+
+                        </div>
+                    </a>
+                    <a class="link" value="Earth" onclick="getValue(this)" href="eproject_infor_planet.html">
+                        <div class="link_earth">
+
+                        </div>
+                    </a>
+                    <a class="link" value="Mercury" onclick="getValue(this)" href="eproject_infor_planet.html">
+                        <div class="link_mercury">
+
+                        </div>
+                    </a>
+                    <a class="link" value="Jupiter" onclick="getValue(this)" href="eproject_infor_planet.html">
+                        <div class="link_jupiter">
+
+                        </div>
+                    </a>
+                    <a class="link" value="Mars" onclick="getValue(this)" href="eproject_infor_planet.html">
+                        <div class="link_mars">
+
+                        </div>
+                    </a>
+                    <a class="link" value="Venus" onclick="getValue(this)" href="eproject_infor_planet.html">
+                        <div class="link_venus">
+
+                        </div>
+                    </a>
+                    <a class="link" value="Saturn" onclick="getValue(this)" href="eproject_infor_planet.html">
+                        <div class="link_saturn">
+
+                        </div>
+                    </a>
+                    <a class="link" value="Neptune" onclick="getValue(this)" href="eproject_infor_planet.html">
+                        <div class="link_neptune">
+
+                        </div>
+                    </a>
+                    <a class="link" value="Uranus" onclick="getValue(this)" href="eproject_infor_planet.html">
+                        <div class="link_uranus">
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+</body>
+<script src="JavaScript/list_planet.js"></script>
+
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpaceK</title>
+  <link rel="shortcut icon" href="img/logo/icon-logo.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/7707bc9338.js" crossorigin="anonymous"></script>
+  <script src="login.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+<style>
+
+</style>
+
+<body class="body_signin">
+  <a class="btt-button" href="#"><i id="btt" class="fa-solid fa-circle-up"></i></a>
+  <div class="contact" id="contact">
+    <i class="fa-sharp fa-solid fa-caret-left" onclick="toggleContactList()"></i><br>
+    <div class="listcontact" id="listcontact">
+      <a href="#facebook" class="contacticon"><i class="fb fa-icon fa fa-facebook-f"></i></a>
+      <a href="#twitter" class="contacticon"><i class="twt fa-icon fa fa-twitter"></i></a>
+      <a href="#google" class="contacticon"><i class="gg fa-icon fa fa-google"></i></a>
+
+    </div>
+  </div>
+
+  <header>
+    <div class="background-image background-image-signup">
+      <div class="menu-web" id="menuWeb">
+        <nav>
+          <div class="menu-left">
+            <a href="index.html" style="font-family: 'Times New Roman', Times, serif;">SPACE<span
+                style="color: red; font-size: 150%;">K</span></a>
+          </div>
+          <div class="menu-center">
+            <div class="list-menu-index" onclick="toggleMenu()"><i class="fa-solid fa-list icon-list-responsive"></i>
+            </div>
+            <a href="eproject_newslist.html">NEWS</a>
+            <a href="eproject_list_planet.html">PLANET</a>
+            <a href="eproject_booktheory.html">THEORY</a>
+            <a href="eproject_list_constellation.html">CONSTELLATION</a>
+            <a href="eproject_comet.html">COMET</a>
+            <a href="eproject_observation.html">OBSERVATIONS</a>
+          </div>
+          <div class="menu-right">
+            <a href="eproject_aboutus.html">ABOUT US</a>
+            <a href="eproject_signin.html" id="index-log"><span id="user-index-log"></span><i
+                class="fa-solid fa-right-from-bracket"></i></a>
+          </div>
+        </nav>
+      </div>
+      <div class="step-signup">
+        <div class="step-select step1">1</div>
+        <div class="step-select step2">2</div>
+        <div class="step-select step3">3</div>
+        <div class="step-select step4">4</div>
+      </div>
+      <div class="box-form-signup">
+        <form action="" class="form-signup form-signup-step1">
+          <h2>ACCOUNT REGISTRATION INFORMATION</h2>
+          <label for="" class="label-signup">User Name:</label>
+
+          <input type="text" name="username" id="username" class="error" required placeholder="Jone Hahm" maxlength="10"
+            autocomplete="off">
+          <br>
+          <p class="errormess" id="usernameerror"></p>
+
+          <label for="" class="label-signup">Email:</label>
+          <input type="text" name="email" id="email" class="error" required placeholder="example@gmail.com"
+            maxlength="30" autocomplete="off">
+          <br>
+          <p class="errormess" id="emailerror"></p>
+
+          <label for="" class="label-signup">Password:</label>
+          <input type="password" name="password" id="password" class="error" required placeholder="password"
+            maxlength="16" autocomplete="off">
+          <br>
+          <p class="errormess" id="passworderror"></p>
+          <label for="" class="label-signup">Password Confirm:</label>
+          <input type="password" name="passwordconfirm" id="passwordconfirm" class="error" required
+            placeholder="password confirm" maxlength="16" autocomplete="off">
+          <br>
+          <p class="errormess" id="passwordconfirmerror"></p>
+
+        </form>
+        <form action="" class="form-signup form-signup-step2">
+          <label for="" class="label-signup">Country:</label>
+          <select name="country" id="country" onchange="checkphone(this)" required>
+            <option value="country">---Country---</option>
+            <option value="VietNam">Viet Nam</option>
+            <option value="India">India</option>
+            <option value="America">America</option>
+            <option value="Russia">Russia</option>
+            <option value="China">China</option>
+            <option value="Japan">Japan</option>
+            <option value="Korea">North Korea</option>
+            <option value="France">France</option>
+            <option value="Other">Other</option>
+
+          </select> <br><br>
+          <label for="" class="label-signup">Address:</label>
+          <input type="text" name="address" id="address" class="error" required placeholder="590 CMT8, Q3, HCM"
+            maxlength="50" autocomplete="off">
+          <br><br>
+
+          <label for="" class="label-signup">Date of Birth:</label>
+          <input type="date" name="date" id="date" required class="error">
+          <br><br>
+
+          <label for="" class="label-signup">Phone:</label>
+          <input type="text" name="phone" id="phone" required placeholder="+84 xxxxxxx" class="error" maxlength="15"
+            autocomplete="off">
+          <br><br>
+        </form>
+        <form action="" class="form-signup form-signup-step3">
+          <h3>Website Terms</h3>
+          <p><b>Intellectual property rights:</b><br>
+            a. All content displayed on this website, including but not limited to text,
+            images, charts, icons, videos and source code, collected from websites on the internet, the accuracy is
+            about 80%. Nothing in these terms is intended to be transferred
+            assigns any intellectual property rights to you.
+            b. You may not copy, modify, distribute, republish, upload, publicize, transmit or use
+            use any content on this website without prior written permission from SpaceK Astronomy or their respective
+            owners.</p>
+          <p><b> Security:</b><br>
+            a. We are committed to protecting your personal information in accordance with the Privacy Policy published
+            on
+            this site. However, the transmission of information over the internet is not completely secure and is not
+            can be guaranteed by us. You do so at your own risk when you submit personal information to us via
+            internet and you are responsible for maintaining the confidentiality of your password information</p>
+          <input type="checkbox" required><span><b>Accept Terms</b></span>
+        </form>
+        <form action="eproject_signin.html" class="form-signup form-signup-step4">
+          <h3>Account successfully created !</h3>
+          <div class="info-client">
+            <span class="info_client_element_title">User Name: </span>
+            <span class="info_client_element info_client_element_style"></span><br>
+            <span class="info_client_element_title">Email: </span>
+            <span class="info_client_element info_client_element_style"></span><br>
+            <span class="info_client_element_title">Password</span>
+            <span class="info_client_element info_client_element_style"></span><br>
+            <span class="info_client_element_title">Country: </span>
+            <span class="info_client_element info_client_element_style"></span><br>
+            <span class="info_client_element_title">Address: </span>
+            <span class="info_client_element info_client_element_style"></span><br>
+            <span class="info_client_element_title">Date Of Birth: </span>
+            <span class="info_client_element info_client_element_style"></span><br>
+            <span class="info_client_element_title">Phone: </span>
+            <span class="info_client_element info_client_element_style"></span><br>
+          </div>
+          <input type="submit" value="SIGN IN">
+        </form>
+        <div class="btn-signup">
+          <button class="back-button button-signup">Back</button>
+          <button class="next-button button-signup">Next</button>
+
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+
+
+
+</body>
+<script src="JavaScript/signup.js"></script>
+
+</html>
