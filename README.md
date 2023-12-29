@@ -18,11 +18,11 @@ Project title: SPACE-K ASTRONOMY
         
 ============================
 
-eProject documentation at https://github.com/Viet0712/E-project/tree/develop/Documentation
+eProject documentation at https://thehuy78.github.io/Project_1/tree/develop/Documentation
 
 ============================
 
-eProject published at https://viet0712.github.io/E-project/
+eProject published at https://thehuy78.github.io/Project_1/
 
 ============================
 
